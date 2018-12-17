@@ -1,0 +1,76 @@
+/* CSS Document
+   Autor: Catalin Patrascioiu
+   Fisier: tema_html
+   Data: 15.12.2018 */
+
+ *{
+     margin: 0; padding: 0;
+  }*
+
+h1{
+   margin-bottom: 0px; margin-top: 0px; margin-left:90px; 
+   font-family: Arial, Helvetica, sans-serif; font-style: italic;
+   color: #aeafaf; font-size: 90px;
+   font-style: italic; text-decoration: underline; font-weight: bolder;
+  }
+
+h2{
+    margin: 20px; margin-bottom: 0px; margin-top: 0px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: teal; font-size: 40px;
+    font-style: italic;
+  }
+
+body{
+     background: #ffffff; height: 100% ; margin: 0; padding: 0;
+    }
+
+#wrapper{
+        width:1366px;
+        clear:both;
+        height: 100%;
+        }
+
+#stanga{
+        width: 220px; height: 100%; margin: 0px; padding: 0;
+        background: #007175;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        float: left;
+       }
+
+#corp_centru{
+        width: 1146px; height: 100%;
+        background:#ffffff;
+        float: left;
+             }
+
+.meniu{
+        margin-left: 17px;
+      }
+.centru{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+
+.search{
+        color: #ffffff;
+        box-align: center;
+        font: arial;
+        }
+
+form{
+    text-align: center;
+    }
+
+label{
+     color: #ffffff;
+     }
+
+div label {
+    all:inline-block;
+    }
+button.submit{font-weight: bold; font-size : 12.5px; width: 100%; 
+              height:20px; width: 90px; border-radius: 6px; border-color: #979799;
+              background: #232324; margin-top:2px; color:white;}
